@@ -1,0 +1,32 @@
+# Ignore Visual Studio specific files
+.vs/
+*.vsidx
+.vscode/
+
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.cache
+*.pdb
+*.ipch
+*.tlog
+*.obj
+*.idb
+*.ilk
+*.log
+
+# Ignore build and output folders
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore CMake and other build system files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore dependencies from NuGet and package managers
+packages/
+node_modules/
